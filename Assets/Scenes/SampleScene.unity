@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 971745666}
   - component: {fileID: 971745665}
   m_Layer: 0
-  m_Name: back
+  m_Name: contpapel
   m_TagString: papel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -317,7 +317,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1355405266
 GameObject:
@@ -331,8 +331,8 @@ GameObject:
   - component: {fileID: 1355405268}
   - component: {fileID: 1355405267}
   m_Layer: 0
-  m_Name: back (1)
-  m_TagString: plastico
+  m_Name: convidrio
+  m_TagString: vidrio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -428,7 +428,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1933700888
 GameObject:
@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 1933700890}
   - component: {fileID: 1933700889}
   m_Layer: 0
-  m_Name: back (3)
+  m_Name: contnoreci
   m_TagString: noreci
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -539,7 +539,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2083372967
 GameObject:
@@ -553,8 +553,8 @@ GameObject:
   - component: {fileID: 2083372969}
   - component: {fileID: 2083372968}
   m_Layer: 0
-  m_Name: back (2)
-  m_TagString: vidrio
+  m_Name: conplastico
+  m_TagString: plastico
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -650,7 +650,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2103053815
 GameObject:
@@ -662,8 +662,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2103053817}
   - component: {fileID: 2103053816}
+  - component: {fileID: 2103053818}
   m_Layer: 0
-  m_Name: back (5)
+  m_Name: Machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -734,5 +735,27 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103053818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103053815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8367c69b08767234daba3c8d4015f19f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  papel1: {fileID: 8922396000380042137, guid: 0619d9272b55bee439841fc0583ca352, type: 3}
+  papel2: {fileID: 8922396000380042137, guid: c103048f3072f904e8ac289fbb4389c4, type: 3}
+  vidrio1: {fileID: 4860487141650955922, guid: a3279295aabb9dd4390b0eea7e4922c6, type: 3}
+  vidrio2: {fileID: 4860487141650955922, guid: a3ce867a9eebfd946984febcfd523e81, type: 3}
+  plastico1: {fileID: 5179306809777548370, guid: de7aed6810f9205479337de334cc4742,
+    type: 3}
+  plastico2: {fileID: 5179306809777548370, guid: bb42831296a82594c93a7cf24bdf72c6,
+    type: 3}
+  noreci1: {fileID: 6272792557878022538, guid: 2af603ec133b196419a132b7c6706556, type: 3}
+  noreci2: {fileID: 6272792557878022538, guid: d8486c4b6bf4b554f937d1e659d84a19, type: 3}
