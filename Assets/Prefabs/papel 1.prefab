@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8922396000380042143}
   - component: {fileID: 8922396000380042136}
   - component: {fileID: 5950148251977638595}
+  - component: {fileID: -7734570440710076481}
   m_Layer: 0
   m_Name: papel 1
   m_TagString: papel
@@ -133,3 +134,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!114 &-7734570440710076481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8922396000380042137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac0419f30ff95249bd4e733cde08f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

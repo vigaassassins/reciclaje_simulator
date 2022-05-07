@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5179306809777548368}
   - component: {fileID: 5179306809777548371}
   - component: {fileID: 4585052620794561867}
+  - component: {fileID: -7540647429456459976}
   m_Layer: 0
   m_Name: plastico 1
   m_TagString: plastico
@@ -133,3 +134,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!114 &-7540647429456459976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5179306809777548370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac0419f30ff95249bd4e733cde08f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
