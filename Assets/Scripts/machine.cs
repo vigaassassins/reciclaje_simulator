@@ -16,6 +16,7 @@ public class machine : MonoBehaviour
 
     int number;
     bool getmateria;
+    int hp=3;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +54,15 @@ public class machine : MonoBehaviour
 
     }
 
+    public void equivo()
+    {
+        hp--;
+        Debug.Log(hp);
+        if (hp > 0)
+        {
+            materiapawn();
+        }
+    }
     public void materiapawn()
     {
         number = Random.Range(1, 8);
