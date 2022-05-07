@@ -15,6 +15,7 @@ public class machine : MonoBehaviour
 
 
     int number;
+    bool getmateria;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,27 +25,39 @@ public class machine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            transform.position = new Vector3();
+            getmateria = false;
         }
-        else if (Input.GetKeyDown(KeyCode.W))
+            if (getmateria) 
         {
-            transform.position = new Vector3();
+
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                transform.position = new Vector3(-6, 3.21f, 0);
+            }
+            else if (Input.GetKeyDown(KeyCode.W))
+            {
+                transform.position = new Vector3(-2, 3.21f, 0);
+            }
+            else if (Input.GetKeyDown(KeyCode.E))
+            {
+                transform.position = new Vector3(2, 3.21f, 0);
+            }
+            else if (Input.GetKeyDown(KeyCode.R))
+            {
+                transform.position = new Vector3(6, 3.21f, 0);
+            }
         }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            transform.position = new Vector3();
-        }
-        else if (Input.GetKeyDown(KeyCode.R))
-        {
-            transform.position = new Vector3();
-        }
+
+
     }
 
     public void materiapawn()
     {
         number = Random.Range(1, 8);
+        transform.position = new Vector3(0, 3.21f, 0);
+        getmateria = true;
         switch (number)
         {
             case 1:
