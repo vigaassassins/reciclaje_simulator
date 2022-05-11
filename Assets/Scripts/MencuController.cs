@@ -19,7 +19,7 @@ public class MencuController : MonoBehaviour
     public void playclick()
     {
 
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("game");
     }
     public void quitclick()
     {
@@ -28,7 +28,7 @@ public class MencuController : MonoBehaviour
     public void retryclick()
     {
 
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("game");
     }
 
     public void menuclick()
