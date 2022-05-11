@@ -9,9 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 33763405fb0122d4ea32cb3be70d111b
   - enabled: 1
+    path: Assets/Scenes/game.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
     path: Assets/Scenes/mat1plas.unity
     guid: 860d122ea4a7ec24eb22ba1d778e264e
   - enabled: 1
-    path: Assets/Scenes/game.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/mat1pilas.unity
+    guid: c660c8854fd299440b570f04de7e440b
+  - enabled: 1
+    path: Assets/Scenes/mat1nore.unity
+    guid: 6aba6ba88163609429aa2ccc775bfb6b
+  - enabled: 1
+    path: Assets/Scenes/mat1inorg.unity
+    guid: aa11b8b58b1cc83489b1f450c096a664
   m_configObjects: {}

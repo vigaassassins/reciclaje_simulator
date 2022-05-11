@@ -43,6 +43,7 @@ public class materia : MonoBehaviour
         {
             Debug.Log("Perdiste");
             gc.equivo();
+            gc.rechar(tag);
         }
     }
 }

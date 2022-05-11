@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class machine : MonoBehaviour
 {
@@ -13,13 +15,15 @@ public class machine : MonoBehaviour
     public GameObject noreci1;
     public GameObject noreci2;
 
-
+    public TextMeshProUGUI Textscore;
     int number;
     bool getmateria;
     int hp=3;
     // Start is called before the first frame update
     void Start()
     {
+
+        Textscore.text = "HP: " + hp;
         materiapawn();
     }
 
@@ -61,6 +65,33 @@ public class machine : MonoBehaviour
         if (hp > 0)
         {
             materiapawn();
+        }
+        Textscore.text = "HP: " + hp;
+    }
+
+    public void rechar(string mat)
+    {
+        if (hp<=0)
+        {
+
+            if (mat == "plastico")
+            {
+                SceneManager.LoadScene("mat1plas");
+            }
+            else if (mat == "vidrio")
+            {
+                SceneManager.LoadScene("mat1inorg");
+            }
+
+            else if (mat == "noreci")
+            {
+                SceneManager.LoadScene("mat1nore");
+
+            }
+            else if (mat == "papel")
+            {
+                SceneManager.LoadScene("mat1plas");
+            }
         }
     }
     public void materiapawn()
