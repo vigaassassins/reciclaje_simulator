@@ -80,12 +80,12 @@ public class machine : MonoBehaviour
             }
             else if (mat == "vidrio")
             {
-                SceneManager.LoadScene("mat1inorg");
+                SceneManager.LoadScene("mat1nore");
             }
 
             else if (mat == "noreci")
             {
-                SceneManager.LoadScene("mat1nore");
+                SceneManager.LoadScene("mat1inorg");
 
             }
             else if (mat == "papel")
