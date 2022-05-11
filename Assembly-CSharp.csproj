@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\materia.cs" />
     <Compile Include="Assets\Scripts\machine.cs" />
+    <Compile Include="Assets\Scripts\MencuController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
