@@ -1,4 +1,4 @@
-using System.Collections;
+   using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -76,7 +76,7 @@ public class machine : MonoBehaviour
 
             if (mat == "plastico")
             {
-                SceneManager.LoadScene("mat1plas");
+                SceneManager.LoadScene("mat1plas"); 
             }
             else if (mat == "vidrio")
             {
@@ -90,7 +90,7 @@ public class machine : MonoBehaviour
             }
             else if (mat == "papel")
             {
-                SceneManager.LoadScene("mat1plas");
+                SceneManager.LoadScene("mat1pilas");
             }
         }
     }
